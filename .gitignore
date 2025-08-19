@@ -1,0 +1,31 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Data & models
+data/
+!data/.gitkeep
+models/
+!models/.gitkeep
+artifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.pkl
+*.joblib
+
+# Streamlit secrets
+.streamlit/
